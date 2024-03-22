@@ -7,7 +7,7 @@ from nexichat import nexichat
 DEV_OP = [
     [
         InlineKeyboardButton(text="🍃𝗢𝗪𝗡𝗘𝗥🍃", user_id=OWNER),
-        InlineKeyboardButton(text="🍃𝗠𝗔𝗡𝗔𝗚𝗜𝗡𝗚🍃", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🍃𝗨𝗣𝗗𝗔𝗧𝗘𝗦🍃", url=f"https://t.me/Coderzzz_Updtaes"),
     ],
     [
         InlineKeyboardButton(
@@ -20,7 +20,7 @@ DEV_OP = [
     ],
     [
        # InlineKeyboardButton(text="🍃𝗦𝗢𝗨𝗥𝗖𝗘🍃", callback_data="SOURCE"),
-        InlineKeyboardButton(text="🍃𝗦𝗨𝗣𝗣𝗢𝗥𝗧🍃", callback_data="SUPPORT"),
+        InlineKeyboardButton(text="🍃𝗦𝗨𝗣𝗣𝗢𝗥𝗧🍃", callback_data="Coderzzz_Support"),
     ],
 ]
 
@@ -116,7 +116,7 @@ HELP_BUTN = [
 
 ABOUT_BTN = [
     [
-        InlineKeyboardButton(text="🍃𝗦𝗨𝗣𝗣𝗢𝗥𝗧🍃", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🍃𝗦𝗨𝗣𝗣𝗢𝗥𝗧🍃", url=f"https://t.me/Coderzzz_Support"),
         InlineKeyboardButton(text="« 𝗛𝗲𝗹𝗽 »", callback_data="HELP"),
     ],
     [
@@ -124,7 +124,7 @@ ABOUT_BTN = [
      #   InlineKeyboardButton(text="🍃𝗦𝗢𝗨𝗥𝗖𝗘🍃", callback_data="SOURCE"),
     ],
     [
-        InlineKeyboardButton(text="🍃𝗨𝗣𝗗𝗔𝗧𝗘𝗦🍃", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text="🍃𝗨𝗣𝗗𝗔𝗧𝗘𝗦🍃", url=f"https://t.me/Coderzzz_Updates"),
         InlineKeyboardButton(text="𝗕𝗮𝗰𝗸", callback_data="BACK"),
     ],
 ]
