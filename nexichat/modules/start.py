@@ -29,20 +29,20 @@ from nexichat.modules.helpers import (
 
 # Random Start Images
 IMG = [
-    "https://graph.org/file/210751796ff48991b86a3.jpg",
-    "https://graph.org/file/7b4924be4179f70abcf33.jpg",
-    "https://graph.org/file/f6d8e64246bddc26b4f66.jpg",
-    "https://graph.org/file/63d3ec1ca2c965d6ef210.jpg",
-    "https://graph.org/file/9f12dc2a668d40875deb5.jpg",
-    "https://graph.org/file/0f89cd8d55fd9bb5130e1.jpg",
-    "https://graph.org/file/e5eb7673737ada9679b47.jpg",
-    "https://graph.org/file/2e4dfe1fa5185c7ff1bfd.jpg",
-    "https://graph.org/file/36af423228372b8899f20.jpg",
-    "https://graph.org/file/c698fa9b221772c2a4f3a.jpg",
-    "https://graph.org/file/61b08f41855afd9bed0ab.jpg",
-    "https://graph.org/file/744b1a83aac76cb3779eb.jpg",
-    "https://graph.org/file/814cd9a25dd78480d0ce1.jpg",
-    "https://graph.org/file/e8b472bcfa6680f6c6a5d.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
+    "https://telegra.ph/file/a03ce0f6022a3b4ee7d80.jpg",
 ]
 
 
@@ -98,7 +98,7 @@ async def start(_, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ {nexichat.name}**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
+            caption=f"""**๏ 𝐇𝐞𝐲 ,𝐈'𝐚𝐦 {nexichat.name}**\n**➻ 𝐀𝐧 𝐀𝐈 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭 + 𝐕𝐜 𝐒𝐨𝐧𝐠 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭 + 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭 + 𝐂𝐡𝐚𝐭𝐠𝐩𝐭 𝐁𝐨𝐭.**\n**──────────────**\n**➻ 𝐔𝐬𝐚𝐠𝐞 /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ 𝐇𝐢𝐭 𝐇𝐞𝐥𝐩 𝐁𝐮𝐭𝐭𝐨𝐧 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩||</b>""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
