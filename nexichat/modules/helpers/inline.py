@@ -20,7 +20,7 @@ DEV_OP = [
     ],
     [
        # InlineKeyboardButton(text="🍃𝗦𝗢𝗨𝗥𝗖𝗘🍃", callback_data="SOURCE"),
-        InlineKeyboardButton(text="🍃𝗦𝗨𝗣𝗣𝗢𝗥𝗧🍃", callback_data="Coderzzz_Support"),
+        InlineKeyboardButton(text="🍃𝗦𝗨𝗣𝗣𝗢𝗥𝗧🍃", callback_data="https://t.me/Coderzzz_Support"),
     ],
 ]
 
