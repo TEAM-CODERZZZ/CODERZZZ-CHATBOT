@@ -7,7 +7,7 @@ from nexichat import nexichat
 DEV_OP = [
     [
         InlineKeyboardButton(text="🍃𝗢𝗪𝗡𝗘𝗥🍃", user_id=OWNER),
-        InlineKeyboardButton(text="🍃𝗨𝗣𝗗𝗔𝗧𝗘𝗦🍃", url=f"https://t.me/Coderzzz_Updtaes"),
+        InlineKeyboardButton(text="🍃𝗨𝗣𝗗𝗔𝗧𝗘𝗦🍃", url=f"https://t.me/Coderzzz_Updates"),
     ],
     [
         InlineKeyboardButton(
